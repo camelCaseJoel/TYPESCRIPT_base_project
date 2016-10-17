@@ -7,6 +7,15 @@
 </head>
 
 <body>
-<script src="js/_js_code/appBundle.js"></script>
+
+<script src="js/lib/system.js"></script>
+<script>
+System.defaultJSExtensions = true;
+// set our baseURL reference path
+SystemJS.config({
+	baseURL: './js/_js_code'
+});
+SystemJS.import('main.js');
+</script> 
 </body>
 </html>

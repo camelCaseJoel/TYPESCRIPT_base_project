@@ -1,7 +1,7 @@
 /**
  * Dog
  */
-class Dog {
+export class Dog {
 	private _name:string;
 	private _color:string;
 
@@ -11,7 +11,7 @@ class Dog {
 	}
 
 	public barkTo( target:string ):void{
-		console.log( `BARK! BARK! :${target} ` + "and..." + this.help );
+		console.log( `BARK! BARK! :${target} ` + "and..." + this.help() );
 	}
 	public printData(  ):void{
 		console.log( `my name is ${this._name} and I'm ${this._color}`);

@@ -1,8 +1,9 @@
 {
 	"compilerOptions": {
-		"module": "amd",
-		"outFile": "./js/_js_code/appBundle.js",
+		"module": "system",
+		//"outFile": "./js/_js_code/appBundle.js",
 		"rootDir": "./js/_ts_code/",
+		"outDir": "./js/_js_code/",
 		"sourceMap": true
 	}
 }
